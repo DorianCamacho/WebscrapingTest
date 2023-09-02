@@ -48,3 +48,4 @@ Test = pd.DataFrame(data)
 
 Test.to_csv('WebscraperTest.csv', index=False)
 Test.to_json("WebcraperTest.json", indent=2, orient='records')
+Test.to_xml('WebscraperTest.xml', index=False)
